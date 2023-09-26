@@ -123,11 +123,13 @@ public class Principal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnConsultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConsultaActionPerformed
-       /* // TODO add your handling code here:
+       
         //creo una instancia
-        VerDatos pantalla = new VerDatos();
-        pantalla.setVisible(true);
-        pantalla.setLocationRelativeTo(null); //centra la pantalla*/
+        ConsultaAutomovil consu = new ConsultaAutomovil();
+        //hacemos visible
+        consu.setVisible(true);
+        consu.setLocationRelativeTo(null);//centra la pantalla
+        
     }//GEN-LAST:event_btnConsultaActionPerformed
 
     private void btnAltoAutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAltoAutoActionPerformed
@@ -153,4 +155,10 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
+
+    
+
+
+
+
 }
